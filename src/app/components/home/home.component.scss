@@ -1,0 +1,16 @@
+.content{
+    text-align: center;
+}
+.logOutContent{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    height: 100px;
+}
+.textDecoration{
+    cursor: pointer;
+}
+.textDecoration:hover{
+    text-decoration: underline;
+    color: rgb(0, 123, 172);
+}

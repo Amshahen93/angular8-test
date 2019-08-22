@@ -1,0 +1,46 @@
+.input{
+    width: 400px;
+}
+.password{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.submitButton{
+    font-size: 18px;
+    width: 120px;
+    height: 45px;
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 95vh;
+    min-height: 400px;
+}
+.registration{
+    width: 400px;
+    font-size: 14px;
+}
+.textDecoration{
+    cursor: pointer;
+}
+.textDecoration:hover{
+    text-decoration: underline;
+    color: rgb(0, 123, 172);
+}
+.errorMassage{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    height: 20px;
+    color: red;
+}
+@media only screen and (max-width: 768px) {
+    .input{
+        width: 250px;
+    }
+    .registration{
+        width: 250px;
+    }
+}
